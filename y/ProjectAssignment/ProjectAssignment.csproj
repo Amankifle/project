@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E714B831-A206-450A-B2BB-09B3D890E782}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProjectAssignment</RootNamespace>
+    <AssemblyName>ProjectAssignment</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroSet UI, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroSet_UI.2.0.0\lib\net45\MetroSet UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adminform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adminform.Designer.cs">
+      <DependentUpon>Adminform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class2.cs" />
+    <Compile Include="Doctor add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doctor add.Designer.cs">
+      <DependentUpon>Doctor add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="doc form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="doc form.Designer.cs">
+      <DependentUpon>doc form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Doc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Doc.Designer.cs">
+      <DependentUpon>Doc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab model.cs" />
+    <Compile Include="Labratorist Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Labratorist Form.Designer.cs">
+      <DependentUpon>Labratorist Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Labratorist main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Labratorist main.Designer.cs">
+      <DependentUpon>Labratorist main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Labratory data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Labratory data.Designer.cs">
+      <DependentUpon>Labratory data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient model.cs" />
+    <Compile Include="PatientTest.cs" />
+    <Compile Include="Pharmacist add model.cs" />
+    <Compile Include="Pharmacist add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pharmacist add.Designer.cs">
+      <DependentUpon>Pharmacist add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pharmacist data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pharmacist data.Designer.cs">
+      <DependentUpon>Pharmacist data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Patient card.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Patient card.Designer.cs">
+      <DependentUpon>Patient card.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rec model.cs" />
+    <Compile Include="Recep add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recep add.Designer.cs">
+      <DependentUpon>Recep add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reception.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reception.Designer.cs">
+      <DependentUpon>reception.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setting.Designer.cs">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sqlconnection.cs" />
+    <EmbeddedResource Include="Adminform.resx">
+      <DependentUpon>Adminform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doctor add.resx">
+      <DependentUpon>Doctor add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="doc form.resx">
+      <DependentUpon>doc form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doc.resx">
+      <DependentUpon>Doc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Labratorist Form.dje-NE.resx">
+      <DependentUpon>Labratorist Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Labratorist Form.resx">
+      <DependentUpon>Labratorist Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Labratorist main.resx">
+      <DependentUpon>Labratorist main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Labratory data.resx">
+      <DependentUpon>Labratory data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacist add.resx">
+      <DependentUpon>Pharmacist add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacist data.resx">
+      <DependentUpon>Pharmacist data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient card.resx">
+      <DependentUpon>Patient card.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Recep add.resx">
+      <DependentUpon>Recep add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reception.resx">
+      <DependentUpon>reception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setting.resx">
+      <DependentUpon>Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-button-vector-icon-modern-design-style-web-site-mobile-app-170757302.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abstract-watercolor-pastel-background_87374-139.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2022-09-22_11-14-39.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1144971787-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lab-quality-assurance-l.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Receptionist-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2022-09-23_15-06-03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\96-960966_top-results-assessment-vector-clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-944133826-640x640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_204414539_3NayeQvjZ0BBC6tOMqwfwDUkQbfTM6zF.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prescription-Filling-Process.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prescription-Filling-Process1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hotel-Front-Desk-Management-Software.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_256162823_Pkb8DMecMvMFD2yyBY45ip0yoqc1tVM8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin-sign-laptop-icon-stock-vector-166205404.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\137-1378213_select-public-search-button-z-svg-png-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\system-administrator-working-laptop-server-racks-vector-illustration-code-developer-database-computer-technology-concept-128374360.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0_3tqC9xQnsZQPGgNf.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,2451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label10.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtcbc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>592, 308</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="label2.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtbun.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txtcbc.Name" xml:space="preserve">
+    <value>txtcbc</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtbun.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="comboBox2.Items2" xml:space="preserve">
+    <value>B RhD positive (B+)</value>
+  </data>
+  <data name="button1.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txturic.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="comboBox2.Items4" xml:space="preserve">
+    <value>O RhD positive (O+)</value>
+  </data>
+  <data name="txturic.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcholestrol.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;errorProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txturic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 28</value>
+  </data>
+  <data name="&gt;&gt;txtcholestrol.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtelectrolyte.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 28</value>
+  </data>
+  <data name="label10.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcholestrol.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Uric acid</value>
+  </data>
+  <data name="label4.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcholestrol.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>BUN</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="label11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtelectrolyte.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button3.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtcreate.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcbc.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcbc.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label11.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcbc.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcbc.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcbc.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcbc.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;errorProvider8.Name" xml:space="preserve">
+    <value>errorProvider8</value>
+  </data>
+  <data name="txtcbc.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button3.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="button4.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcholestrol.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button3.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtglucose.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtcbc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtbun.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="txtcreate.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtelectrolyte.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txtcholestrol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txturic.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcholestrol.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txtcreate.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 317</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 22</value>
+  </data>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label10.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBox2.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txturic.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel1.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 182</value>
+  </data>
+  <data name="panel1.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comboBox2.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="button3.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;errorProvider8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="txtcreate.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtelectrolyte.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel1.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel1.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel1.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="panel1.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel1.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel1.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;errorProvider7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Electrolyte</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Cholestrol</value>
+  </data>
+  <data name="txtelectrolyte.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtelectrolyte.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtelectrolyte.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcholestrol.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox2.Items6" xml:space="preserve">
+    <value>AB RhD positive (AB+)</value>
+  </data>
+  <data name="txturic.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcreate.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtelectrolyte.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 242</value>
+  </data>
+  <data name="button1.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcreate.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;errorProvider4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txturic.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button3.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comboBox2.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboBox2.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comboBox2.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 22</value>
+  </data>
+  <data name="label11.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox2.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcholestrol.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcbc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtelectrolyte.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="comboBox2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label8.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 22</value>
+  </data>
+  <data name="label8.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label8.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label8.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label8.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtbun.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;errorProvider9.Name" xml:space="preserve">
+    <value>errorProvider9</value>
+  </data>
+  <data name="label12.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label4.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox2.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txtcreate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcreate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txturic.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 248</value>
+  </data>
+  <data name="txturic.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcholestrol.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="txtcreate.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label11.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Labratorist_Form</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="txtelectrolyte.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtelectrolyte.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtelectrolyte.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtelectrolyte.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtelectrolyte.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtelectrolyte.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtelectrolyte.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtglucose.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtglucose.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtglucose.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtglucose.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtglucose.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtglucose.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="txtglucose.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox2.Items3" xml:space="preserve">
+    <value>B RhD negative (B-)</value>
+  </data>
+  <data name="txtelectrolyte.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="button3.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 248</value>
+  </data>
+  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtcholestrol.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label11.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;errorProvider5.Name" xml:space="preserve">
+    <value>errorProvider5</value>
+  </data>
+  <data name="txtcbc.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label12.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button3.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox2.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="button4.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtelectrolyte.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label11.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcreate.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcholestrol.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="button4.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button1.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="button3.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcholestrol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 317</value>
+  </data>
+  <data name="comboBox2.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcholestrol.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 402</value>
+  </data>
+  <data name="label12.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label11.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="txtcholestrol.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comboBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="comboBox2.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcholestrol.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBox2.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcbc.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="txtcreate.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="label10.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtglucose.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txturic.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtelectrolyte.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="label9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="panel1.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button4.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txturic.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;errorProvider2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtcbc.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox2.Items5" xml:space="preserve">
+    <value>O RhD negative (O-)</value>
+  </data>
+  <data name="txturic.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox2.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtbun.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtglucose.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;errorProvider2.Name" xml:space="preserve">
+    <value>errorProvider2</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="txturic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>509, 104</value>
+  </data>
+  <data name="label11.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtbun.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label11.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button3.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBox2.Items7" xml:space="preserve">
+    <value>AB RhD negative (AB-)</value>
+  </data>
+  <data name="txturic.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcbc.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcbc.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcbc.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcbc.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcbc.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcbc.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcbc.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button3.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="label10.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txturic.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtbun.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtbun.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtbun.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtbun.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtbun.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtbun.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtbun.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comboBox2.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtbun.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtelectrolyte.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtelectrolyte.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtelectrolyte.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txtelectrolyte.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtelectrolyte.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 101</value>
+  </data>
+  <data name="txtcholestrol.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 22</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.Name" xml:space="preserve">
+    <value>comboBox2</value>
+  </data>
+  <data name="txtglucose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 28</value>
+  </data>
+  <data name="&gt;&gt;errorProvider9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button3.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>962, 454</value>
+  </data>
+  <data name="button3.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcholestrol.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.Text" xml:space="preserve">
+    <value>Go back</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Glucose</value>
+  </data>
+  <data name="button3.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 41</value>
+  </data>
+  <data name="&gt;&gt;txtcbc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label10.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txtelectrolyte.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="comboBox2.Items" xml:space="preserve">
+    <value>A RhD positive (A+)</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>962, 454</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>CBC</value>
+  </data>
+  <data name="txtcreate.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txturic.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="button1.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txturic.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcbc.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtglucose.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="button1.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;errorProvider4.Name" xml:space="preserve">
+    <value>errorProvider4</value>
+  </data>
+  <data name="txturic.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="txturic.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button3.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="label2.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox2.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcbc.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txturic.Name" xml:space="preserve">
+    <value>txturic</value>
+  </data>
+  <data name="txtcreate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 182</value>
+  </data>
+  <data name="button4.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtbun.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcreate.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtbun.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txtbun.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtbun.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtbun.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtbun.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtbun.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="button1.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txturic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label11.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBox2.Items1" xml:space="preserve">
+    <value>A RhD negative (A-)</value>
+  </data>
+  <data name="txtcreate.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label11.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txturic.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtcbc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="txtcreate.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="comboBox2.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label9.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtglucose.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcholestrol.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcholestrol.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="label2.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>683, 412</value>
+  </data>
+  <data name="txtcreate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 28</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button3.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Creatinine</value>
+  </data>
+  <data name="txtbun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 28</value>
+  </data>
+  <data name="panel1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button4.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button3.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcholestrol.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtbun.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txtcbc.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;txtcreate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="label3.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="comboBox2.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label11.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comboBox2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 311</value>
+  </data>
+  <data name="&gt;&gt;errorProvider7.Name" xml:space="preserve">
+    <value>errorProvider7</value>
+  </data>
+  <data name="comboBox2.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="label4.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comboBox2.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button3.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label10.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 377</value>
+  </data>
+  <data name="txtcholestrol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 28</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label10.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txturic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 248</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Blood test</value>
+  </data>
+  <data name="label8.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtglucose.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtglucose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="button1.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button1.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcreate.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button4.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcholestrol.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcreate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="button1.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtelectrolyte.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label10.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtglucose.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtglucose.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtglucose.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtglucose.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtglucose.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtglucose.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtglucose.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtglucose.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txtcreate.Name" xml:space="preserve">
+    <value>txtcreate</value>
+  </data>
+  <data name="label11.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcholestrol.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcbc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 28</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label9.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button4.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtcholestrol.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcholestrol.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcholestrol.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 41</value>
+  </data>
+  <data name="label10.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;errorProvider6.Name" xml:space="preserve">
+    <value>errorProvider6</value>
+  </data>
+  <data name="label11.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button3.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcholestrol.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label9.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label9.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label9.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 22</value>
+  </data>
+  <data name="label9.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button4.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label8.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtglucose.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label3.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 41</value>
+  </data>
+  <data name="txturic.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox2.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcreate.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txturic.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcreate.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;txturic.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="txtcreate.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="label4.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txtglucose.Name" xml:space="preserve">
+    <value>txtglucose</value>
+  </data>
+  <data name="label2.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;errorProvider6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtbun.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="txtcreate.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtglucose.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button3.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;errorProvider3.Name" xml:space="preserve">
+    <value>errorProvider3</value>
+  </data>
+  <data name="button1.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;errorProvider3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtcreate.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label9.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcreate.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="txtelectrolyte.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label10.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtbun.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="panel1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="panel1.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button4.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtbun.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="txtcholestrol.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comboBox2.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcreate.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txtcholestrol.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="button1.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcholestrol.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 22</value>
+  </data>
+  <data name="button1.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button3.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtcreate.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtcreate.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button3.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label10.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comboBox2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label10.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comboBox2.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Labratorist_Form</value>
+  </data>
+  <data name="txtcholestrol.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txtelectrolyte.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="txtelectrolyte.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtglucose.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtbun.Name" xml:space="preserve">
+    <value>txtbun</value>
+  </data>
+  <data name="label10.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="panel1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="label10.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtglucose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 176</value>
+  </data>
+  <data name="label11.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtelectrolyte.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="txtcreate.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txturic.IconAlignment5" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txtbun.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtcholestrol.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtcbc.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="comboBox2.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;errorProvider5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ErrorProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;errorProvider1.Name" xml:space="preserve">
+    <value>errorProvider1</value>
+  </data>
+  <data name="label3.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txturic.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcreate.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txturic.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label10.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtelectrolyte.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtbun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="txturic.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button1.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="button1.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txturic.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcbc.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcbc.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcbc.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcbc.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcbc.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcbc.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcbc.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcbc.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label10.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcreate.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="label12.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtglucose.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="label10.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtbun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 101</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 176</value>
+  </data>
+  <data name="label10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Error2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txturic.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="button4.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBox2.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtelectrolyte.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button4.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcreate.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtcholestrol.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtelectrolyte.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label11.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label10.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comboBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 28</value>
+  </data>
+  <data name="button3.Error3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button3.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtbun.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="txtbun.IconPadding5" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label11.IconPadding4" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtbun.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtbun.IconPadding2" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtbun.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button3.IconPadding6" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txturic.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtbun.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcholestrol.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtglucose.Error5" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtglucose.Error4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtglucose.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtglucose.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconAlignment2" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconAlignment7" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconAlignment6" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconAlignment4" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtglucose.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 101</value>
+  </data>
+  <data name="label3.IconAlignment8" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;comboBox2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label10.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtcreate.IconPadding3" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txturic.Error1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtelectrolyte.Error7" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.IconAlignment3" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label10.Error8" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtglucose.IconPadding8" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtglucose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txturic.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button4.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label11.IconAlignment1" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txtelectrolyte.Name" xml:space="preserve">
+    <value>txtelectrolyte</value>
+  </data>
+  <data name="&gt;&gt;comboBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="comboBox2.Error6" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;txtcholestrol.Name" xml:space="preserve">
+    <value>txtcholestrol</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label12.IconPadding1" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtelectrolyte.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txturic.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtcreate.IconPadding7" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <metadata name="errorProvider8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>637, 184</value>
+  </metadata>
+  <metadata name="errorProvider4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>327, 227</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <metadata name="errorProvider5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>947, 184</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="errorProvider2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>637, 227</value>
+  </metadata>
+  <metadata name="errorProvider3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>482, 227</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>dje-NE</value>
+  </metadata>
+  <metadata name="errorProvider9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>792, 184</value>
+  </metadata>
+  <metadata name="errorProvider6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>482, 184</value>
+  </metadata>
+  <metadata name="errorProvider7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 227</value>
+  </metadata>
+  <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>172, 227</value>
+  </metadata>
+</root>

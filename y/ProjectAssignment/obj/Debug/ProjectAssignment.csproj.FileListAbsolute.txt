@@ -1,0 +1,143 @@
+C:\Users\amank\source\repos\ProjectAssignment\ProjectAssignment\bin\Debug\ProjectAssignment.exe.config
+C:\Users\amank\source\repos\ProjectAssignment\ProjectAssignment\bin\Debug\ProjectAssignment.exe
+C:\Users\amank\source\repos\ProjectAssignment\ProjectAssignment\bin\Debug\ProjectAssignment.pdb
+C:\Users\amank\source\repos\ProjectAssignment\ProjectAssignment\bin\Debug\MetroSet UI.dll
+C:\Users\amank\source\repos\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.AssemblyReference.cache
+C:\Users\amank\source\repos\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\amank\source\repos\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Form1.resources
+C:\Users\amank\source\repos\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Properties.Resources.resources
+C:\Users\amank\source\repos\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.GenerateResource.cache
+C:\Users\amank\source\repos\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.CoreCompileInputs.cache
+C:\Users\amank\source\repos\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.CopyComplete
+C:\Users\amank\source\repos\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.exe
+C:\Users\amank\source\repos\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.pdb
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.AssemblyReference.cache
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Form1.resources
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.GenerateResource.cache
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.exe
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.pdb
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\bin\Debug\ProjectAssignment.exe.config
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\bin\Debug\ProjectAssignment.exe
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\bin\Debug\ProjectAssignment.pdb
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\bin\Debug\MetroSet UI.dll
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Properties.Resources.resources
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.CoreCompileInputs.cache
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.CopyComplete
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Adminform.resources
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.adminForm2.resources
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Doc.resources
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Setting.resources
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Labratory_data.resources
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Recep_add.resources
+C:\Users\amank\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.doc_form.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\bin\Debug\ProjectAssignment.exe.config
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\bin\Debug\ProjectAssignment.exe
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\bin\Debug\ProjectAssignment.pdb
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\bin\Debug\MetroSet UI.dll
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Adminform.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.adminForm2.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.doc_form.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Doc.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Form1.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Labratory_data.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Properties.Resources.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Recep_add.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Setting.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.GenerateResource.cache
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.CopyComplete
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.exe
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.pdb
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.reception.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Labratorist_Form.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Product_card.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Labratorist_main.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Pharmacist_add.resources
+C:\Users\user\OneDrive\Desktop\ProjectAssignment\ProjectAssignment\obj\Debug\ProjectAssignment.Pharmacist_data.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\bin\Debug\ProjectAssignment.exe.config
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\bin\Debug\ProjectAssignment.exe
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\bin\Debug\ProjectAssignment.pdb
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\bin\Debug\MetroSet UI.dll
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.AssemblyReference.cache
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.Adminform.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.adminForm2.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.doc_form.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.Doc.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.Form1.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.Labratorist_Form.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.Labratorist_main.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.Labratory_data.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.Pharmacist_add.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.Pharmacist_data.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.Product_card.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.Properties.Resources.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.Recep_add.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.reception.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.Setting.resources
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.GenerateResource.cache
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.CoreCompileInputs.cache
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.CopyComplete
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.exe
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.pdb
+C:\Users\amank\OneDrive\Desktop\y\ProjectAssignment\obj\Debug\ProjectAssignment.Home.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\bin\Debug\ProjectAssignment.exe.config
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\bin\Debug\ProjectAssignment.exe
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\bin\Debug\ProjectAssignment.pdb
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\bin\Debug\MetroSet UI.dll
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.AssemblyReference.cache
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Adminform.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.adminForm2.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.doc_form.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Doc.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Form1.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Home.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Labratorist_Form.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Labratorist_main.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Labratory_data.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Pharmacist_add.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Pharmacist_data.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Product_card.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Properties.Resources.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Recep_add.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.reception.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Setting.resources
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.GenerateResource.cache
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.CoreCompileInputs.cache
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.CopyComplete
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.exe
+C:\Users\amank\OneDrive\Desktop\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.pdb
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.AssemblyReference.cache
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Adminform.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.adminForm2.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.doc_form.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Doc.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Form1.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Home.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Labratorist_Form.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Labratorist_main.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Labratory_data.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Pharmacist_add.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Pharmacist_data.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Product_card.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Properties.Resources.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Recep_add.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.reception.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Setting.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.GenerateResource.cache
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.CoreCompileInputs.cache
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.exe
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.pdb
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\bin\Debug\ProjectAssignment.exe.config
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\bin\Debug\ProjectAssignment.exe
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\bin\Debug\ProjectAssignment.pdb
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\bin\Debug\MetroSet UI.dll
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.csproj.CopyComplete
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\bin\Debug\dje-NE\ProjectAssignment.resources.dll
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\ProjectAssignment.Labratorist_Form.dje-NE.resources
+C:\Users\amank\OneDrive\Desktop\t (2)\t\y\ProjectAssignment\obj\Debug\dje-NE\ProjectAssignment.resources.dll
