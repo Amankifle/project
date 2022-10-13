@@ -12,9 +12,20 @@ namespace ProjectAssignment
 {
     public partial class Doc : Form
     {
-        public Doc()
+        public Doc(String user,string pass)
         {
             InitializeComponent();
+            List<Doctorclass> d = new List<Doctorclass>();
+            Sqlconnection.selectalldoctor(d);
+            foreach (Doctorclass doctor in d)
+            {
+                if (doctor.user == user && doctor.pass == pass)
+                {
+                    label7.Text = doctor.FName;
+                    label7.Text += " ";
+                    label7.Text += doctor.LName;
+                }
+            }
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -248,6 +259,11 @@ namespace ProjectAssignment
             Setting s = new Setting();
             s.labTestResult(int.Parse(txtsearch.Text.ToString()));
             s.Show(); 
+        }
+
+        private void Doc_Load(object sender, EventArgs e)
+        {
+           
         }
     }
 }

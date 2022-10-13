@@ -41,21 +41,7 @@ namespace ProjectAssignment
             button2.Text = "Delete";
             button3.Visible = true;
         }
-        private void a_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void radioButtonMale_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButtonFemale_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
         {
             if (checkBox1.Checked && txtconfirm != null && checkBox1.Checked && txtpass != null)
@@ -70,60 +56,7 @@ namespace ProjectAssignment
             }
         }
 
-        private void txtconfirm_TextChanged(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtpass_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtuser_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtemail_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
         void clear()
         {
             txtFname.Clear();
@@ -170,22 +103,14 @@ namespace ProjectAssignment
             else
             {
                 b = false;
-                MessageBox.Show("gender is required");
+                MessageBox.Show("gender is required", "error occured", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
 
-            Regex regex2 = new Regex(@"^[A-Z]+$");
 
-            Regex regex3 = new Regex(@"^[a-z]+$");
-            //for(int i=0;i< txtFname.Text.Length; i++)
-            //{
-            //    if (txtFname.Text[i] < 91)
-            //        txtFname.Text += 32;
-            //}
-            //for (int i = 0; i < txtLname.Text.Length; i++)
-            //{
-            //    if (txtLname.Text[i] < 91)
-            //        txtLname.Text += 32;
-            //}
+
+            Regex regex3 = new Regex(@"^[a-zA-Z]+$");
+
             if (regex3.IsMatch(txtFname.Text))
             {
                 errorProvider1.Clear();
@@ -235,7 +160,7 @@ namespace ProjectAssignment
 
             }
 
-            
+
 
 
 
@@ -290,7 +215,8 @@ namespace ProjectAssignment
 
                 if (txtconfirm.Text != txtpass.Text)
                 {
-                    MessageBox.Show("Passwords do not match please check again");
+                    MessageBox.Show("Passwords do not match please check again", "error occured", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                 }
                 else if (b == true && txtconfirm.Text == txtpass.Text)
 
@@ -310,55 +236,11 @@ namespace ProjectAssignment
                             this.Close();
                         }
                     }
-                    
-                    
+
+
                     clear();
                 }
             }
-        }
-        private void txtPhoneNo_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtLname_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtFname_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button3_Click(object sender, EventArgs e)

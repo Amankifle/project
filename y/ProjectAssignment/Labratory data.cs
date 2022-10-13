@@ -58,22 +58,11 @@ namespace ProjectAssignment
             else
             {
                 b = false;
-                MessageBox.Show("gender is required");
+                MessageBox.Show("Gender is required", "error occured", MessageBoxButtons.OK, MessageBoxIcon.Error);  
             }
 
-            Regex regex2 = new Regex(@"^[A-Z]+$");
-
-            Regex regex3 = new Regex(@"^[a-z]+$");
-            //for(int i=0;i< txtFname.Text.Length; i++)
-            //{
-            //    if (txtFname.Text[i] < 91)
-            //        txtFname.Text += 32;
-            //}
-            //for (int i = 0; i < txtLname.Text.Length; i++)
-            //{
-            //    if (txtLname.Text[i] < 91)
-            //        txtLname.Text += 32;
-            //}
+            Regex regex3 = new Regex(@"^[a-zA-Z]+$");
+        
             if (regex3.IsMatch(txtFname.Text))
             {
                 errorProvider1.Clear();
@@ -98,10 +87,9 @@ namespace ProjectAssignment
             }
 
             Regex regex1 = new Regex(@"^[0-9]+$");
-            if (regex1.IsMatch(txtPhoneNo.Text))
+            if (regex1.IsMatch(txtPhoneNo.Text) && txtPhoneNo.Text.Length != 11)
             {
                 d.PhoneNo = txtPhoneNo.Text;
-
             }
             else
             {
@@ -123,10 +111,11 @@ namespace ProjectAssignment
 
             }
 
-            if (string.IsNullOrEmpty(comboBox1.Text))
+            if (string.IsNullOrEmpty(comboBox1.Text)||comboBox1.Text== "Specialisation")
             {
                 b = false;
-                errorProvider5.SetError(comboBox1, " Specialization is required");
+                MessageBox.Show(" Specialization is required", "error occured", MessageBoxButtons.OK, MessageBoxIcon.Error);
+  
 
             }
             else
@@ -190,7 +179,8 @@ namespace ProjectAssignment
 
                 if (txtconfirm.Text != txtpass.Text)
                 {
-                    MessageBox.Show("Passwords do not match please check again");
+                MessageBox.Show("Passwords do not match please check again", "error occured", MessageBoxButtons.OK, MessageBoxIcon.Error);
+               
                 }
                 else if (b == true && txtconfirm.Text == txtpass.Text)
                 {
@@ -256,21 +246,6 @@ namespace ProjectAssignment
                 txtconfirm.UseSystemPasswordChar = true;
                 txtpass.UseSystemPasswordChar = true;
             }
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-            this.Hide();
-            Labratorist_main d = new Labratorist_main();
-            d.Show();
-
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
 
         }
 

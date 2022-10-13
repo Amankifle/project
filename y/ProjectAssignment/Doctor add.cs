@@ -91,7 +91,7 @@ namespace ProjectAssignment
             else
             {
                 b = false;
-                MessageBox.Show("gender is required");
+                MessageBox.Show("Gender is required", "error occured", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             Regex regex3 = new Regex(@"^[a-zA-Z]+$");
             if (regex3.IsMatch(txtFname.Text))
@@ -142,7 +142,8 @@ namespace ProjectAssignment
             if (dateTimePicker1.Text == "")
             {
                 b = false;
-                MessageBox.Show("date of birth is required");
+                MessageBox.Show("Date of birth is required", "error occured", MessageBoxButtons.OK, MessageBoxIcon.Error);
+               
             }
             else
             {
@@ -151,7 +152,8 @@ namespace ProjectAssignment
             if (comboBox1.Text== "Specialisation")
             {
                 b = false;
-                MessageBox.Show("Specialization is required");
+                MessageBox.Show("Specialization is required", "error occured", MessageBoxButtons.OK, MessageBoxIcon.Error);
+               
             }
             else
             {
@@ -202,7 +204,8 @@ namespace ProjectAssignment
                 errorProvider9.Clear();
                 if (txtconfirm.Text != txtpass.Text)
                 {
-                    MessageBox.Show("Passwords do not match please check again");
+                    MessageBox.Show("Passwords do not match please check again", "error occured", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                   
                 }
                 else if (b == true && txtconfirm.Text == txtpass.Text)
                 {
@@ -250,129 +253,6 @@ namespace ProjectAssignment
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtconfirm_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtpass_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtuser_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtemail_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButtonMale_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButtonFemale_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtPhoneNo_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtLname_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtFname_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+   
     }
 }

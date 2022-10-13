@@ -77,7 +77,7 @@ namespace ProjectAssignment
                 else if (b && comboBox1.Text == "Doctor")
                 {
                     this.Hide();
-                    Doc d = new Doc();
+                    Doc d = new Doc(textBox3.Text, textBox2.Text);
                     d.Show();
                 }
                 else if (R && comboBox1.Text == "Reception")
