@@ -34,17 +34,22 @@ namespace ProjectAssignment
             }
             if (b == true)
             {
-
-                errorProvider1.Clear();
-                d.pid = int.Parse(txtsearch.Text);
-                if (Sqlconnection.selectpatientTest(d.pid))
+                try
                 {
-                    Sqlconnection.selectmedication(d);
-                    MessageBox.Show("Patients new medication ordered by doctor is: " + d.medication + "\n with a dose of: " + d.dose + ".");
-                }
-                else
+                    errorProvider1.Clear();
+                    d.pid = int.Parse(txtsearch.Text);
+                    if (Sqlconnection.selectpatientTest(d.pid))
+                    {
+                        Sqlconnection.selectmedication(d);
+                        MessageBox.Show("Patients new medication ordered by doctor is: " + d.medication + "\n with a dose of: " + d.dose + ".");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Doctor hasn't ordered any medication.");
+                    }
+                }catch(Exception e3)
                 {
-                    MessageBox.Show("Doctor hasn't ordered any medication.");
+                    MessageBox.Show("Please enter id properly!!");
                 }
             }
             else if(b==false)

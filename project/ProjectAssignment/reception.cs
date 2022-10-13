@@ -66,7 +66,7 @@ namespace ProjectAssignment
                 }
 
                 Regex regex1 = new Regex(@"^[0-9]+$");
-                if (regex1.IsMatch(txtPhoneNo.Text))
+                if (regex1.IsMatch(txtPhoneNo.Text) && txtPhoneNo.Text.Length != 11)
                 {
                     d.PhoneNo = txtPhoneNo.Text;
 

@@ -689,7 +689,7 @@ namespace ProjectAssignment
                     
                     MessageBox.Show($"laboratorist {doc.FName +" "+ doc.LName} has been Registered Successfully");
                     
-                    //MessageBox.Show("Personal id is");
+                 
                     b = true;
                 }
                 con.Close();
@@ -728,7 +728,7 @@ namespace ProjectAssignment
 
                     MessageBox.Show($"Pharmacist {doc.FName +" "+ doc.LName} has been Registered Successfully");
 
-                    //MessageBox.Show("Personal id is");
+                  
                     b = true;
                 }
                 con.Close();
@@ -768,7 +768,7 @@ namespace ProjectAssignment
 
                     MessageBox.Show($"receptionist {doc.FName +" "+ doc.LName} has been Registered Successfully");
 
-                    //MessageBox.Show("Personal id is");
+                   
                     b = true;
                 }
 
@@ -805,7 +805,15 @@ namespace ProjectAssignment
                 int rowsAffected = cmd.ExecuteNonQuery();
                 if (rowsAffected > 0)
                 {
-
+                    List<Patient_model> list = new List<Patient_model>();
+                    selectallpatient(list);
+                   for(int i = 1; i < list.Count; i++)
+                    {
+                        if (list[i].id > list[i - 1].id)
+                        {
+                            id = list[i].id;
+                        }
+                    }
                     MessageBox.Show($"Patient {doc.FName + " " + doc.LName} has been Registered Successfully \n your Patient id is: " + id);
                     b = true;
                 }
