@@ -12,11 +12,11 @@ namespace ProjectAssignment
 {
     public partial class Labratorist_Form : Form
     {
-        int pid;
-        public Labratorist_Form(int id)
+        
+        public Labratorist_Form()
         {
             InitializeComponent();
-            pid= id;
+           
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -146,35 +146,37 @@ namespace ProjectAssignment
             }
             if (b == true)
             {
-                p.pid = pid;
-                if (p.tested == 1)
+                p.pid = int.Parse(txtsearch.Text);
+                PatientTest q = Sqlconnection.selectpatienttest(int.Parse(txtsearch.Text));
+                p.tested = 1;
+                if (q.tested == 1)
                 {
-                    p.tested = 1;
+                    
                     if (MessageBox.Show("This patient test was submitted already!!\n Are you sure you want to submit again. ", "Confirm", MessageBoxButtons.YesNo) == DialogResult.Yes)
                     {
                         Sqlconnection.updatetestResult(p);
+                        diabled();
                     }
                 }
-                this.Close();  
-                
+                else if (MessageBox.Show("Are you sure you want to submit this record. ", "Confirm", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    
+                    Sqlconnection.updatetestResult(p);
+                    diabled();
+                }
+
             }
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            this.Close();
-           
 
-        }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
-
-        private void Labratorist_Form_Load(object sender, EventArgs e)
+        private  void lab()
         {
-            PatientTest p = Sqlconnection.selectpatienttest(pid);
+            PatientTest p = Sqlconnection.selectpatienttest(int.Parse(txtsearch.Text));
             if (p.bloodtest == " ")
             {
                 comboBox2.Text = "Not required";
@@ -216,7 +218,81 @@ namespace ProjectAssignment
                 txtglucose.Enabled = false;
             }
         }
+        private void Labratorist_Form_Load(object sender, EventArgs e)
+        {
+            diabled();
+        }
+        private void diabled()
+        {
+            comboBox2.Enabled = false;
+            txtbun.Enabled = false;
+            txtcholestrol.Enabled = false;
+            txtcbc.Enabled = false;
+            txtcreate.Enabled = false;
+            txtelectrolyte.Enabled = false;
+            txtglucose.Enabled = false;
+            txtsearch.Enabled = true;
+            txturic.Enabled = false;
+            button1.Enabled=false;
+        }
+        private void enabled()
+        {
+            comboBox2.Enabled = true;
+            txtbun.Enabled = true;
+            txtcholestrol.Enabled = true;
+            txtcbc.Enabled = true;
+            txtcreate.Enabled=true;
+            txtelectrolyte.Enabled=true;
+            txtglucose.Enabled=true;
+            txtsearch.Enabled=false;
+            txturic.Enabled=true;
+            button1.Enabled=true;
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Boolean valid = true;
+            errorProvider2.Clear();
+            if (txtsearch.Text == "" || txtsearch.Text == "Enter id" && txtsearch.ForeColor == Color.Gray)
+            {
+                valid = false;
+                errorProvider2.SetError(txtsearch, "patient id is a Required field");
+            }
+            else if (valid == true)
+            {
+                try
+                {
+                    if (Sqlconnection.selectpatientTest(int.Parse(txtsearch.Text)))
+                    {
+                        enabled();
+                        lab();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Patient not found!!", "error occured", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }catch(Exception e4)
+                {
+                    valid = false;
+                    errorProvider2.SetError(txtsearch, "patient id is not in correct format.");
+                }
+            }
+        }
 
-        
+        private void txtsearch_Enter(object sender, EventArgs e)
+        {
+            if (txtsearch.Text == "Enter id")
+                txtsearch.Clear();
+            txtsearch.ForeColor = Color.Black;
+        }
+
+        private void txtsearch_Leave(object sender, EventArgs e)
+        {
+            if (txtsearch.Text == "")
+            {
+                txtsearch.ForeColor = Color.Gray;
+                txtsearch.Text = "Enter id";
+
+            }
+        }
     }
 }

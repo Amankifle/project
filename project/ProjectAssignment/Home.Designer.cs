@@ -70,12 +70,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.BackColor = System.Drawing.Color.Gray;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.MenuBar;
             this.label3.Location = new System.Drawing.Point(265, 155);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(471, 40);
+            this.label3.Size = new System.Drawing.Size(496, 40);
             this.label3.TabIndex = 30;
             this.label3.Text = "Hospital managment system";
             // 
@@ -85,9 +85,9 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.nopha);
             this.panel1.Controls.Add(this.label7);
-            this.panel1.Location = new System.Drawing.Point(470, 477);
+            this.panel1.Location = new System.Drawing.Point(565, 477);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(187, 150);
+            this.panel1.Size = new System.Drawing.Size(205, 150);
             this.panel1.TabIndex = 29;
             this.panel1.Click += new System.EventHandler(this.panel1_Click);
             // 
@@ -131,10 +131,9 @@
             this.panel7.Controls.Add(this.label6);
             this.panel7.Location = new System.Drawing.Point(131, 477);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(187, 150);
+            this.panel7.Size = new System.Drawing.Size(196, 150);
             this.panel7.TabIndex = 29;
             this.panel7.Click += new System.EventHandler(this.panel7_Click);
-            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // label9
             // 
@@ -174,12 +173,11 @@
             this.panel6.Controls.Add(this.label8);
             this.panel6.Controls.Add(this.noLab);
             this.panel6.Controls.Add(this.label5);
-            this.panel6.Location = new System.Drawing.Point(470, 217);
+            this.panel6.Location = new System.Drawing.Point(558, 217);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(187, 150);
+            this.panel6.Size = new System.Drawing.Size(212, 150);
             this.panel6.TabIndex = 28;
             this.panel6.Click += new System.EventHandler(this.panel6_Click);
-            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // label8
             // 
@@ -221,10 +219,9 @@
             this.panel5.Controls.Add(this.label1);
             this.panel5.Location = new System.Drawing.Point(131, 217);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(187, 150);
+            this.panel5.Size = new System.Drawing.Size(196, 150);
             this.panel5.TabIndex = 27;
             this.panel5.Click += new System.EventHandler(this.panel5_Click);
-            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // noDoc
             // 
@@ -257,7 +254,6 @@
             this.label1.Size = new System.Drawing.Size(85, 22);
             this.label1.TabIndex = 0;
             this.label1.Text = "Doctors:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Home
             // 

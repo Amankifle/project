@@ -120,7 +120,7 @@
             // 
             this.panel1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.panel1.BackgroundImage = global::ProjectAssignment.Properties.Resources.lab_quality_assurance_l;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.checkBox1);
@@ -151,14 +151,14 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(907, 520);
+            this.panel1.Size = new System.Drawing.Size(1051, 613);
             this.panel1.TabIndex = 3;
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(27, 444);
+            this.button3.Location = new System.Drawing.Point(35, 527);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(112, 35);
             this.button3.TabIndex = 38;
@@ -173,11 +173,11 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Red;
-            this.label11.Location = new System.Drawing.Point(309, 18);
+            this.label11.Location = new System.Drawing.Point(42, 20);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(190, 29);
+            this.label11.Size = new System.Drawing.Size(263, 29);
             this.label11.TabIndex = 32;
-            this.label11.Text = "Add Labratorist";
+            this.label11.Text = " Labratorist add Form";
             // 
             // checkBox1
             // 
@@ -282,7 +282,7 @@
             this.label2.BackColor = System.Drawing.Color.SteelBlue;
             this.label2.Font = new System.Drawing.Font("Bahnschrift", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(18, 388);
+            this.label2.Location = new System.Drawing.Point(43, 461);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(102, 22);
             this.label2.TabIndex = 17;
@@ -291,7 +291,7 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(153, 385);
+            this.textBox1.Location = new System.Drawing.Point(174, 458);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(145, 28);
@@ -318,7 +318,7 @@
             this.groupBox1.Controls.Add(this.radioButtonMale);
             this.groupBox1.Controls.Add(this.radioButtonFemale);
             this.groupBox1.Font = new System.Drawing.Font("Bahnschrift", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(134, 209);
+            this.groupBox1.Location = new System.Drawing.Point(174, 249);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -354,10 +354,10 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Green;
+            this.button2.BackColor = System.Drawing.Color.Red;
             this.button2.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(650, 420);
+            this.button2.Location = new System.Drawing.Point(766, 430);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(133, 41);
@@ -368,10 +368,10 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.Font = new System.Drawing.Font("Bahnschrift Condensed", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(457, 420);
+            this.button1.Location = new System.Drawing.Point(582, 430);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(133, 41);
@@ -383,7 +383,7 @@
             // txtPhoneNo
             // 
             this.txtPhoneNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPhoneNo.Location = new System.Drawing.Point(134, 165);
+            this.txtPhoneNo.Location = new System.Drawing.Point(174, 195);
             this.txtPhoneNo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPhoneNo.Name = "txtPhoneNo";
             this.txtPhoneNo.Size = new System.Drawing.Size(145, 28);
@@ -392,7 +392,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(153, 322);
+            this.dateTimePicker1.Location = new System.Drawing.Point(174, 397);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(302, 28);
@@ -401,7 +401,7 @@
             // txtLname
             // 
             this.txtLname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtLname.Location = new System.Drawing.Point(134, 113);
+            this.txtLname.Location = new System.Drawing.Point(174, 140);
             this.txtLname.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtLname.Name = "txtLname";
             this.txtLname.Size = new System.Drawing.Size(145, 28);
@@ -410,7 +410,7 @@
             // txtFname
             // 
             this.txtFname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFname.Location = new System.Drawing.Point(134, 57);
+            this.txtFname.Location = new System.Drawing.Point(174, 80);
             this.txtFname.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtFname.Name = "txtFname";
             this.txtFname.Size = new System.Drawing.Size(145, 28);
@@ -422,7 +422,7 @@
             this.label7.BackColor = System.Drawing.Color.SteelBlue;
             this.label7.Font = new System.Drawing.Font("Bahnschrift", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(18, 113);
+            this.label7.Location = new System.Drawing.Point(49, 140);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(98, 22);
             this.label7.TabIndex = 6;
@@ -434,7 +434,7 @@
             this.label5.BackColor = System.Drawing.Color.SteelBlue;
             this.label5.Font = new System.Drawing.Font("Bahnschrift", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(31, 246);
+            this.label5.Location = new System.Drawing.Point(75, 291);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(70, 22);
             this.label5.TabIndex = 4;
@@ -446,7 +446,7 @@
             this.label6.BackColor = System.Drawing.Color.SteelBlue;
             this.label6.Font = new System.Drawing.Font("Bahnschrift", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(18, 322);
+            this.label6.Location = new System.Drawing.Point(23, 397);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(122, 24);
             this.label6.TabIndex = 5;
@@ -458,7 +458,7 @@
             this.label4.BackColor = System.Drawing.Color.SteelBlue;
             this.label4.Font = new System.Drawing.Font("Bahnschrift", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(23, 171);
+            this.label4.Location = new System.Drawing.Point(58, 201);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(89, 22);
             this.label4.TabIndex = 3;
@@ -470,7 +470,7 @@
             this.label1.BackColor = System.Drawing.Color.SteelBlue;
             this.label1.Font = new System.Drawing.Font("Bahnschrift", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(11, 57);
+            this.label1.Location = new System.Drawing.Point(44, 86);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 22);
             this.label1.TabIndex = 0;
@@ -480,8 +480,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(907, 520);
+            this.ClientSize = new System.Drawing.Size(1051, 613);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Labratory_data";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

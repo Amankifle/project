@@ -256,7 +256,7 @@ namespace ProjectAssignment
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Setting s = new Setting();
+            View_All_Data s = new View_All_Data();
             s.labTestResult(int.Parse(txtsearch.Text.ToString()));
             s.Show(); 
         }

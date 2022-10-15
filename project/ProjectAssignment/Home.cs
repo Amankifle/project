@@ -17,24 +17,15 @@ namespace ProjectAssignment
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel5_Paint(object sender, PaintEventArgs e)
-        {
-            
-            
-        }
+        // Opens datagridview for doctor
         private void panel5_Click(object sender, EventArgs e)
         {
             List<Doctorclass> text = Doctorclass.getallDoctor();
 
             if (text.Count > 0)
             {
-                Setting s = new Setting();
-                s.doctor();
+                View_All_Data s = new View_All_Data();// Has datagridview
+                s.doctor();// gets all 
                 s.Show();
             }
             else
@@ -43,64 +34,58 @@ namespace ProjectAssignment
             }
         }
 
-        private void panel6_Paint(object sender, PaintEventArgs e)
-        {
-            
-           
-        }
 
-        private void panel7_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
 
+
+        // Opens datagridview for receptionist
         private void panel7_Click(object sender, EventArgs e)
         {
             List<Rec_model> text = Rec_model.getallrec();
             if (text.Count > 0)
             {
                 
-                Setting s = new Setting();
+                View_All_Data s = new View_All_Data();
                 s.rec();
-                s.Show();
+                s.Show();// gets all 
             }
             else
             {
                 MessageBox.Show("Reception   list is empty!!");
             }
         }
-
+        // Opens datagridview for labratorist
         private void panel6_Click(object sender, EventArgs e)
         {
             List<Lab_model> text = Lab_model.getallLab();
             if (text.Count > 0)
             {
                 
-                Setting s = new Setting();
+                View_All_Data s = new View_All_Data();
                 s.lab();
-                s.Show();
+                s.Show();// gets all 
             }
             else
             {
                 MessageBox.Show("Labratory  list is empty!!");
             }
         }
+        // Opens datagridview for pharmacist
         private void panel1_Click(object sender, EventArgs e)
         {
             List<Pharmacist_add_model> text = Pharmacist_add_model.getallPha();
             if (text.Count > 0)
             {
                 
-                Setting s = new Setting();
+                View_All_Data s = new View_All_Data();
                 s.phar();
-                s.Show();
+                s.Show();// gets all 
             }
             else
             {
                 MessageBox.Show("Pharmacist list is empty!!");
             }
         }
-
+        // Counts how many employee are there and assign them to label
         private void Home_Load(object sender, EventArgs e)
         {
             noDoc.Text=Doctorclass.getallDoctor().Count().ToString();

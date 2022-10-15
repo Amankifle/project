@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjectAssignment
 {
-    public partial class Setting : Form
+    public partial class View_All_Data : Form
     {
-        public Setting()
+        public View_All_Data()
         {
             InitializeComponent();
         }
@@ -74,6 +74,7 @@ namespace ProjectAssignment
                 if (label2.Text == "Doctor list")
                 {
                     adminForm2 doc = new adminForm2();
+                    //passes the value that are in the datagridview
                     doc.Passvalue(int.Parse(row.Cells[0].Value.ToString()), row.Cells[1].Value.ToString(), row.Cells[2].Value.ToString()
                         , row.Cells[3].Value.ToString(), row.Cells[4].Value.ToString(), row.Cells[5].Value.ToString(), int.Parse(row.Cells[6].Value.ToString())
                         , row.Cells[7].Value.ToString(), row.Cells[8].Value.ToString()
@@ -112,6 +113,7 @@ namespace ProjectAssignment
 
             }
         }
+        // button for go back
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();

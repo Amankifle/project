@@ -21,8 +21,7 @@ namespace ProjectAssignment
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (button1.Text == "Add")
-            {
+           
                 Patient_model d = new Patient_model();
                 Boolean b = true;
                 if (radioButtonMale.Checked)
@@ -103,6 +102,8 @@ namespace ProjectAssignment
                 }
                 if (b == true)
                 {
+                if (button1.Text == "Add")
+                {
                     d.Blood_Group = comboBox1.Text;
                     d.Dateofbirth = dateTimePicker1.Text;
                     if (MessageBox.Show("Are you sure you want to add this person", "Confirm", MessageBoxButtons.YesNo) == DialogResult.Yes)
@@ -116,28 +117,34 @@ namespace ProjectAssignment
                             MessageBox.Show("There was an error in adding Patient!!", "error occured", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
-
                 }
                 else if (button1.Text == "update")
                 {
                     if (MessageBox.Show("Are you sure you want to update this person", "Confirm", MessageBoxButtons.YesNo) == DialogResult.Yes)
                     {
+                        
                         Patient_model p = new Patient_model();
-                        p.FName= txtFname.Text;
-                        p.Address= txtaddress.Text;
-                        p.Email= txtemail.Text;
-                         p.LName= txtLname.Text;
-                        p.PhoneNo= txtPhoneNo.Text ;
+                        p.FName = txtFname.Text;
+                        p.Address = txtaddress.Text;
+                        p.Email = txtemail.Text;
+                        p.LName = txtLname.Text;
+                        p.PhoneNo = txtPhoneNo.Text;
                         if (radioButtonMale.Checked == true)
                             p.Gender = "Male";
                         else
                             p.Gender = "Female";
-                        p.Blood_Group= comboBox1.Text;
-                        p.Dateofbirth= dateTimePicker1.Text;
+                        p.Blood_Group = comboBox1.Text;
+                        p.Dateofbirth = dateTimePicker1.Text;
                         Sqlconnection.Updatepat(pid, p);
+                        panel1.Visible = false;
+                        panel2.Visible = true;
+                        dataGridView1.DataSource = Patient_model.getallPatient();
                     }
                 }
-            }
+
+             }
+               
+            
         }
         private void clear()
         {

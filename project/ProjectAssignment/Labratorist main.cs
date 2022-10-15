@@ -19,37 +19,20 @@ namespace ProjectAssignment
 
         private void Labratorist_main_Load(object sender, EventArgs e)
         {
-
+            addNewDiagnosisToolStripMenuItem_Click(sender, e);
         }
-
+  
         private void addNewDiagnosisToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            txtsearch.Visible = true;
-            Boolean valid = true;
-            errorProvider1.Clear();
-            if (txtsearch.Text == "Enter id" && txtsearch.ForeColor == Color.Gray)
+            if (ActiveMdiChild != null)
             {
-                valid = false;
-                errorProvider1.SetError(txtsearch, "patient id is a Required field");
+                ActiveMdiChild.Close();
             }
-            else if (valid == true)
-            {
-                if (Sqlconnection.selectpatientTest(int.Parse(txtsearch.Text)))
-                {
-                    if (ActiveMdiChild != null)
-                    {
-                        ActiveMdiChild.Close();
-                    }
 
-                    Labratorist_Form form = new Labratorist_Form(int.Parse(txtsearch.Text));
-                    form.MdiParent = this;
-                    form.Show();
-                }
-                else
-                {
-                    MessageBox.Show("Patient not found!!", "error occured", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
+            Labratorist_Form form = new Labratorist_Form();
+            form.MdiParent = this;
+            form.Show();
+
         }
 
         private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -59,26 +42,14 @@ namespace ProjectAssignment
             d.Show();
         }
 
-        private void txtsearch_Enter(object sender, EventArgs e)
-        {
-            if (txtsearch.Text == "Enter id")
-                txtsearch.Clear();
-            txtsearch.ForeColor = Color.Black;
-        }
-
-        private void txtsearch_Leave(object sender, EventArgs e)
-        {
-            if (txtsearch.Text == "")
-            {
-                txtsearch.ForeColor = Color.Gray;
-                txtsearch.Text = "Enter id";
-
-            }
-        }
+   
         private void viewPatientNewDiagnosisToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            txtsearch.Visible=false;
-            Setting form = new Setting();
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+            View_All_Data form = new View_All_Data();
             form.pat();
             form.MdiParent = this;
             form.Show();

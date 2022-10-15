@@ -26,17 +26,17 @@ namespace ProjectAssignment
         int s = 0;
         private void timer1_Tick(object sender, EventArgs e)
         {
-            s+=10;
-            progressBar1.Value = s;
+            s+=5;
+            circularProgressBar1.Value = s;
             label2.Text=s.ToString()+"%";
-            if (progressBar1.Value == 100)
+            if (circularProgressBar1.Value == 100)
             {
-                progressBar1.Value = 0;
+                circularProgressBar1.Value = 0;
                 timer1.Stop();
-                groupBox2.Visible = false;
+                circularProgressBar1.Visible = false;
                 groupBox1.Visible = true;
-                
-               
+                label2.Visible = false;
+
             }
 
         }

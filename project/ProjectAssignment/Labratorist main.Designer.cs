@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.txtsearch = new System.Windows.Forms.TextBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.addNewDiagnosisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,18 +38,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // txtsearch
-            // 
-            this.txtsearch.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.txtsearch.Location = new System.Drawing.Point(378, 206);
-            this.txtsearch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.txtsearch.Name = "txtsearch";
-            this.txtsearch.Size = new System.Drawing.Size(244, 26);
-            this.txtsearch.TabIndex = 32;
-            this.txtsearch.Text = "Enter id";
-            this.txtsearch.Enter += new System.EventHandler(this.txtsearch_Enter);
-            this.txtsearch.Leave += new System.EventHandler(this.txtsearch_Leave);
             // 
             // errorProvider1
             // 
@@ -66,7 +53,7 @@
             this.logoutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1076, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(1138, 33);
             this.menuStrip1.TabIndex = 33;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -80,7 +67,7 @@
             // viewPatientNewDiagnosisToolStripMenuItem
             // 
             this.viewPatientNewDiagnosisToolStripMenuItem.Name = "viewPatientNewDiagnosisToolStripMenuItem";
-            this.viewPatientNewDiagnosisToolStripMenuItem.Size = new System.Drawing.Size(241, 30);
+            this.viewPatientNewDiagnosisToolStripMenuItem.Size = new System.Drawing.Size(241, 32);
             this.viewPatientNewDiagnosisToolStripMenuItem.Text = "view patient new diagnosis";
             this.viewPatientNewDiagnosisToolStripMenuItem.Click += new System.EventHandler(this.viewPatientNewDiagnosisToolStripMenuItem_Click);
             // 
@@ -102,8 +89,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(1076, 649);
-            this.Controls.Add(this.txtsearch);
+            this.ClientSize = new System.Drawing.Size(1138, 558);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
@@ -121,7 +107,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox txtsearch;
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem addNewDiagnosisToolStripMenuItem;
