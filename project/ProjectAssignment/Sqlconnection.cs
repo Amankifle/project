@@ -550,9 +550,38 @@ namespace ProjectAssignment
             }
             return p;
         }
+        public static Class3 selectpatientHisory(int id)
+        { 
+            SqlDataReader res = null;
+            Class3 p = new Class3();
+            try
+            {
+                
+                connection();
+                string sql = "select medication,dose,diagnosis,Symptom from Patienttest where pid='" + id + "'";
+                SqlCommand cmd = new SqlCommand(sql, con);
+                res = cmd.ExecuteReader();
+                res.Read();
+                p.medication= res[0].ToString();
+                p.dose = res[1].ToString();
+                p.diagnosis = res[2].ToString();
+                p.Symptom=res[3].ToString();
+                p.id = id;
+                con.Close();
+            }
+            catch (SqlException e)
+            {
+                MessageBox.Show(e.Message);
+            }
+            return p;
+        }
         public static Boolean updatetest(int id, string medication,string newdiagnosis,string dose)
         {
             Boolean b = false;
+            PatientTest p = selectpatienttest(id);
+            String di = newdiagnosis;
+            newdiagnosis = p.diagnosis + " , ";
+            newdiagnosis += di;
             try
             {
                 connection();

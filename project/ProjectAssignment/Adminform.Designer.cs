@@ -33,6 +33,7 @@
             this.button6 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -42,7 +43,6 @@
             this.metroSetControlBox1 = new MetroSet_UI.Controls.MetroSetControlBox();
             this.label2 = new System.Windows.Forms.Label();
             this.metroSetContextMenuStrip1 = new MetroSet_UI.Controls.MetroSetContextMenuStrip();
-            this.panel6 = new System.Windows.Forms.Panel();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -116,6 +116,15 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
             // 
+            // panel6
+            // 
+            this.panel6.BackgroundImage = global::ProjectAssignment.Properties.Resources.admin_sign_laptop_icon_stock_vector_166205404;
+            this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel6.Location = new System.Drawing.Point(38, 12);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(138, 95);
+            this.panel6.TabIndex = 0;
+            // 
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.Black;
@@ -186,6 +195,9 @@
             // 
             // mainpanel
             // 
+            this.mainpanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.mainpanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.mainpanel.Location = new System.Drawing.Point(217, 63);
             this.mainpanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -249,15 +261,6 @@
             this.metroSetContextMenuStrip1.StyleManager = null;
             this.metroSetContextMenuStrip1.ThemeAuthor = "Narwin";
             this.metroSetContextMenuStrip1.ThemeName = "MetroLite";
-            // 
-            // panel6
-            // 
-            this.panel6.BackgroundImage = global::ProjectAssignment.Properties.Resources.admin_sign_laptop_icon_stock_vector_166205404;
-            this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel6.Location = new System.Drawing.Point(38, 12);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(138, 95);
-            this.panel6.TabIndex = 0;
             // 
             // Adminform
             // 

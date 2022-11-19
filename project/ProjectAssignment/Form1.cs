@@ -72,7 +72,7 @@ namespace ProjectAssignment
                     this.Hide();
                     Adminform adminform = new Adminform(textBox2.Text);
                     adminform.ShowDialog();
-
+                    
                 }
                 else if (b && comboBox1.Text == "Doctor")
                 {

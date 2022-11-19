@@ -137,7 +137,7 @@
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.dataGridView1);
-            this.panel2.Location = new System.Drawing.Point(215, 12);
+            this.panel2.Location = new System.Drawing.Point(204, 12);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(843, 529);
             this.panel2.TabIndex = 30;
@@ -415,10 +415,11 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(18, 331);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(302, 28);
+            this.dateTimePicker1.Size = new System.Drawing.Size(145, 28);
             this.dateTimePicker1.TabIndex = 10;
             // 
             // label4

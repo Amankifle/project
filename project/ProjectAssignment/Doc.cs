@@ -126,7 +126,7 @@ namespace ProjectAssignment
                             {
                                 panel1.Visible = true;
                                 button7.Visible = true;
-                                
+                                button8.Visible = true;
                             }
                         }
                         else if(g==false)
@@ -242,12 +242,15 @@ namespace ProjectAssignment
             panel2.Visible = false;
             button6.Visible = false;
             button7.Visible = false;
+            button8.Visible = false;
+            txtdiagnosis.Clear();
+            textBox3.Clear();
+            txtmedication.Clear();
+            textBox1.Clear();
+            textBox2.Clear();
             txtsearch.Clear();
         }
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+    
 
         private void button6_Click(object sender, EventArgs e)
         {
@@ -261,9 +264,11 @@ namespace ProjectAssignment
             s.Show(); 
         }
 
-        private void Doc_Load(object sender, EventArgs e)
+        private void button8_Click(object sender, EventArgs e)
         {
-           
+            View_All_Data s = new View_All_Data();
+            s.labhisory(int.Parse(txtsearch.Text.ToString()));
+            s.Show();
         }
     }
 }

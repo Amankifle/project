@@ -32,9 +32,20 @@ namespace ProjectAssignment
         }
         public void labTestResult(int id)
         {
+            button1.Visible = true;
             label2.Text = "Labratory Result";
             Class2 o = Sqlconnection.selectpatienttestDoc(id);
             List<Class2> text = new List<Class2>();
+            text.Add(o);
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = text;
+        }
+        public void labhisory(int id)
+        {
+            button1.Visible = true;
+            label2.Text = "Diagnosis Hisory";
+            Class3 o = Sqlconnection.selectpatientHisory(id);
+            List<Class3> text = new List<Class3>();
             text.Add(o);
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = text;
@@ -55,6 +66,7 @@ namespace ProjectAssignment
         }
         public void pat()
         {
+            button1.Visible = true;
             label2.Text = "patient result";
             List<PatientTest> text = Sqlconnection.selectallpatienttest();
             dataGridView1.DataSource = null;

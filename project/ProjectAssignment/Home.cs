@@ -12,11 +12,15 @@ namespace ProjectAssignment
 {
     public partial class Home : Form
     {
+        static Adminform Adminform;
         public Home()
         {
             InitializeComponent();
         }
-
+        public  void adminForm2(Adminform a)
+        {
+            Adminform = a;
+        }
         // Opens datagridview for doctor
         private void panel5_Click(object sender, EventArgs e)
         {
@@ -26,7 +30,8 @@ namespace ProjectAssignment
             {
                 View_All_Data s = new View_All_Data();// Has datagridview
                 s.doctor();// gets all 
-                s.Show();
+                Adminform.openchildform(s);
+               
             }
             else
             {
@@ -45,8 +50,8 @@ namespace ProjectAssignment
             {
                 
                 View_All_Data s = new View_All_Data();
-                s.rec();
-                s.Show();// gets all 
+                s.rec();// gets all 
+                Adminform.openchildform(s);
             }
             else
             {
@@ -61,8 +66,8 @@ namespace ProjectAssignment
             {
                 
                 View_All_Data s = new View_All_Data();
-                s.lab();
-                s.Show();// gets all 
+                s.lab();// gets all 
+                Adminform.openchildform(s);
             }
             else
             {
@@ -77,8 +82,8 @@ namespace ProjectAssignment
             {
                 
                 View_All_Data s = new View_All_Data();
-                s.phar();
-                s.Show();// gets all 
+                s.phar();// gets all 
+                Adminform.openchildform(s);
             }
             else
             {

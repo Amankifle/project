@@ -18,17 +18,18 @@ namespace ProjectAssignment
             label1.Text = name;
             Home d = new Home();
             openchildform(d);
+            d.adminForm2(this);
             button8.BackColor = Color.SlateGray;
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             adminForm2 adminForm2 = new adminForm2();
             openchildform(adminForm2);
             button1.BackColor = Color.SlateGray;
-        }  
+        }
         private Form activeform = null;
-        private void openchildform(Form childform)
+        public void openchildform(Form childform)
         {
             button1.BackColor = Color.SteelBlue;
             button5.BackColor = Color.SteelBlue;
@@ -41,21 +42,21 @@ namespace ProjectAssignment
             activeform = childform;
             childform.TopLevel = false;
             childform.FormBorderStyle = FormBorderStyle.None;
-            childform.Dock= DockStyle.Fill;
+            childform.Dock = DockStyle.Fill;
             mainpanel.Controls.Add(childform);
             mainpanel.Tag = childform;
             childform.BringToFront();
             childform.Show();
         }
         private void button4_Click(object sender, EventArgs e)
-        {           
+        {
             Labratory_data d = new Labratory_data();
             openchildform(d);
             button4.BackColor = Color.SlateGray;
         }
         private void button2_Click(object sender, EventArgs e)
         {
-           
+
             Recep_add s = new Recep_add();
             openchildform(s);
             button2.BackColor = Color.SlateGray;
@@ -63,7 +64,7 @@ namespace ProjectAssignment
 
         private void button5_Click(object sender, EventArgs e)
         {
-            
+
             Pharmacist_add d = new Pharmacist_add();
             openchildform(d);
             button5.BackColor = Color.SlateGray;
@@ -79,10 +80,12 @@ namespace ProjectAssignment
 
         private void button8_Click_1(object sender, EventArgs e)
         {
-            
+
             Home d = new Home();
             openchildform(d);
+            d.adminForm2(this);
             button8.BackColor = Color.SlateGray;
         }
+ 
     }
 }
